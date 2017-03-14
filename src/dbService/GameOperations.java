@@ -28,20 +28,20 @@ public class GameOperations {
 //          Tallaght
 //            ods.setURL("jdbc:oracle:thin:@//10.10.2.7:1521/global1");
 //            ods.setUser("x00129654");
-//            ods.setPassword("db11Jul97");
+//            ods.setPassword("password");
 
 //            ods.setURL("jdbc:oracle:thin:@//10.10.2.7:1521/global1");
 //            ods.setUser("x00130180");
-//            ods.setPassword("db05Apr97");
+//            ods.setPassword("password");
 
 //          Home Oracle XE
 //            ods.setURL("jdbc:oracle:thin:@localhost:1521:XE");
 //            ods.setUser("walsh");
-//            ods.setPassword("jwalsh97");
+//            ods.setPassword("password");
 
             ods.setURL("jdbc:oracle:thin:@localhost:1521:XE");
             ods.setUser("system");
-            ods.setPassword("jordan11");
+            ods.setPassword("password");
 
             conn = ods.getConnection();
             System.out.println("Connected.");
